@@ -1,0 +1,9 @@
+links:
+- name: Kunder
+  link: /portfolio/
+- name: Blog
+  link: /blog/
+- name: Om oss
+  link: /about/
+- name: Kontakt
+  link: /contact/

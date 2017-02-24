@@ -1,0 +1,15 @@
+---
+title: Om oss
+heading: Våre ansatte
+subtitle: Møt våre ansatte.
+---
+
+<section class="diagonal alternate">
+	<div class="container">
+		<ul class="image-grid">
+			{% for member in site.staff_members %}
+				<li>{% include staff-member.html member=member %}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

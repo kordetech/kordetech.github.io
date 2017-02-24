@@ -1,0 +1,29 @@
+- title: Sider
+  links:
+    - name: Hjem
+      link: /
+    - name: Portfolio
+      link: /portfolio/
+    - name: Blogg
+      link: /blog/
+    - name: Om oss
+      link: /about/
+    - name: Kontakt
+      link: /contact/
+- title: Sosial
+  links:
+    - name: Facebook
+      link: https://www.facebook.com/kordedigital/
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: https://twitter.com/Korde_AS
+      social_icon: Twitter
+      new_window: true
+    - name: LinkedIn
+      link: https://www.linkedin.com/company/korde
+      social_icon: LinkedIn
+      new_window: true
+    - name: Instagram
+      link: https://www.instagram.com/korde_as
+      social_icon: Instagram
