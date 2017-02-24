@@ -2,7 +2,7 @@
 name: Rystad Energy
 subtitle: Mobilapplikasjon for Rystad Energy Ranks
 external_url: https://www.rystadenergy.com/
-image_path: http://korde.no/media/filer_public/50/9f/509ff230-da38-44c5-83d3-62ee137d948f/skjermbilde_2016-10-03_kl_162240.png
+image_path: /images/clients/rystad-energy.png
 ---
 
 ## Kundens utfordring
