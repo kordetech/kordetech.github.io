@@ -1,8 +1,8 @@
 title: Korde
 url: "https://korde.no"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+google_analytics_key: UA-92595165-1
+google_maps_javascript_api_key: AIzaSyD9ZM1iNycbphp1imOJgWeCzyMVnKN0w9I
 disqus_shortname: korde
 
 # Default description in social shares for the jekyll-seo-tag gem
