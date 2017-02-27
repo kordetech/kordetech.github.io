@@ -1,24 +1,27 @@
+# Default title for seo-tag
 title: Korde
-url: "https://korde.no"
-baseurl:
+# Default description in social shares for the jekyll-seo-tag gem
+description: Korde er et lite konsulentselskap som utvikler IT-løsninger.  I dag skaper og utvikler vi produkter for etablerte selskaper, og startups med en gode ideer.
+url: "http://korde.no"
+logo: /images/korde-black.png
 google_analytics_key: UA-92595165-1
 google_maps_javascript_api_key: AIzaSyD9ZM1iNycbphp1imOJgWeCzyMVnKN0w9I
 disqus_shortname: korde
 
-# Default description in social shares for the jekyll-seo-tag gem
-description: Korde er et lite konsulentselskap som utvikler IT-løsninger.  I dag skaper og utvikler vi produkter for etablerte selskaper, og startups med en gode ideer.
+twitter:
+  username: Korde_AS
 
-# Author details for the jekyll-seo-tag gem
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+facebook:
+  app_id: 1092232697485924
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Korde
+  name: Korde AS
   links:
-    - https://korde.no
+    - https://twitter.com/korde_as
+    - https://www.facebook.com/kordedigital/
+    - https://www.linkedin.com/company/korde
+    - https://www.instagram.com/korde_as
 
 collections:
   staff_members:
@@ -35,6 +38,7 @@ jekyll-archives:
     - "categories"
 
 gems:
+  - "jekyll-sitemap"
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
