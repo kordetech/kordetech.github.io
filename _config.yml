@@ -2,7 +2,7 @@
 title: Korde
 # Default description in social shares for the jekyll-seo-tag gem
 description: Korde er et lite konsulentselskap som utvikler IT-løsninger.  I dag skaper og utvikler vi produkter for etablerte selskaper, og startups med en gode ideer.
-url: "http://korde.no"
+url: "https://korde.no"
 logo: /images/korde-black.png
 google_analytics_key: UA-92595165-1
 google_maps_javascript_api_key: AIzaSyD9ZM1iNycbphp1imOJgWeCzyMVnKN0w9I
@@ -36,12 +36,14 @@ permalink: pretty
 jekyll-archives:
   enabled:
     - "categories"
+  permalinks:
+    categories: '/category/:name/'
 
 gems:
-  - "jekyll-sitemap"
-  - "jekyll-seo-tag"
-  - "jekyll-paginate"
-  - "jekyll-archives"
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
 
 defaults:
   - scope:
