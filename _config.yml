@@ -33,17 +33,10 @@ paginate: 10
 paginate_path: "/blog/:num/"
 permalink: pretty
 
-jekyll-archives:
-  enabled:
-    - "categories"
-  permalinks:
-    categories: '/category/:name/'
-
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-archives
 
 defaults:
   - scope:
